@@ -301,6 +301,10 @@ opacity:0.9;
     font-family: AvenirNext-Regular,'Open Sans',sans;
 }
 
+.list-group {
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
 /*makes an anchor inactive(not clickable)*/
 .inactive-link {
    pointer-events: none;
@@ -386,6 +390,7 @@ opacity:0.9;
     font-family: AvenirNext-Regular,'Open Sans',sans;
 }
 
-h4 {font-family: AvenirNext-Regular,'Open Sans',sans;
+h4 {
+    font-family: AvenirNext-Regular,'Open Sans',sans;
 }
 
