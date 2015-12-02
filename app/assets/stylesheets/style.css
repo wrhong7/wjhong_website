@@ -1,0 +1,391 @@
+p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+
+body {
+    padding-top: 50px;
+    margin-bottom: 60px;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #191919;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.about-me-content {
+    margin-top: 20px;
+}
+
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding-left: 250px;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+}
+
+.book {
+    padding: 15px 0 0 0;
+    margin: auto;
+}
+a:before { /* Just to give a little puddle of a shadow without adding another element */
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1em;
+    background: rgba(0,0,0,.35);
+    border-radius: 50%;
+    position: absolute;
+    bottom:-10px;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    z-index:-5;
+}
+.shelf {
+    border-bottom: 30px solid #a5a5a5;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: -15px;
+    z-index: -10;
+}
+/*Example adding pseudo element to give shelf depth*/
+.shelf:after {
+    content: '';
+    background: #686868;
+    height: 20px;
+    width: calc(100% + 40px); /*IE9+*/
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 -20px;
+}
+
+.container-thumbnail {
+  padding-top: 150px;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+/* uses font awesome for social icons */
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+.page-header{
+  text-align: center;
+  font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+/*social buttons*/
+.btn-social{
+  color: white;
+  opacity:0.9;
+}
+.btn-social:hover {
+  color: white;
+    opacity:1;
+}
+.btn-facebook {
+background-color: #3b5998;
+opacity:0.9;
+}
+.btn-twitter {
+background-color: #00aced;
+opacity:0.9;
+}
+.btn-linkedin {
+background-color:#0e76a8;
+opacity:0.9;
+}
+.btn-github{
+  background-color:#000000;
+  opacity:0.9;
+}
+.btn-google {
+  background-color: #c32f10;
+  opacity: 0.9;
+}
+.btn-stackoverflow{
+  background-color: #D38B28;
+  opacity: 0.9;
+}
+
+/* resume stuff */
+
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4{
+    color: #d9534f;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+.resume .list-group-item:first-child, .resume .list-group-item:last-child{
+  border-radius:0;
+  font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.resume .list-group-item {
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+/*makes an anchor inactive(not clickable)*/
+.inactive-link {
+   pointer-events: none;
+   cursor: default;
+   font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+.resume-heading .social-btns{
+  margin-top:15px;
+  font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+.resume-heading .social-btns i.fa{
+  margin-left:-5px;
+  font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+
+
+@media (max-width: 992px) {
+  .resume-heading .social-btn-holder{
+    padding:5px;
+  }
+}
+
+
+/* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
+
+.progress-bar {
+    text-align: left;
+    white-space: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+    padding-left: 10px;
+}
+
+.progress-meter {
+    min-height: 15px;
+    border-bottom: 2px solid rgb(160, 160, 160);
+    margin-bottom: 15px;
+}
+
+.progress-meter > .meter {
+    position: relative;
+    float: left;
+    min-height: 15px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+    float: right;
+    border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+    border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+    position: absolute;
+    display: inline-block;
+    bottom: -20px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.85em;
+    color: rgb(160, 160, 160);
+    text-align: left;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+    text-align: right;
+    font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
+h4 {font-family: AvenirNext-Regular,'Open Sans',sans;
+}
+
