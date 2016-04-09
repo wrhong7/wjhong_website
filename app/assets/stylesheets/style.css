@@ -393,3 +393,8 @@ opacity:0.9;
 h4 {
     font-family: AvenirNext-Regular,'Open Sans',sans;
 }
+
+.caption p{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
