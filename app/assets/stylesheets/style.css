@@ -158,7 +158,8 @@ a {
     padding: 15px 0 0 0;
     margin: auto;
 }
-a:before { /* Just to give a little puddle of a shadow without adding another element */
+
+.bookshelf a:before { /* Just to give a little puddle of a shadow without adding another element */
     content: '';
     display: block;
     width: 80%;
@@ -407,8 +408,4 @@ h4 {
 #p-margin p { 
     margin: 0, 0, 0, 0;
     padding: 0, 0, 0, 0;
-}
-
-footer {
-    position: fixed;
 }
