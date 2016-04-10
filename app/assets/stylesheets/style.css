@@ -67,8 +67,6 @@ html {
     margin-top: 20px;
 }
 
-
-
 /*=========================
   Icons
  ================= */
@@ -321,14 +319,11 @@ opacity:0.9;
   font-family: AvenirNext-Regular,'Open Sans',sans;
 }
 
-
-
 @media (max-width: 992px) {
   .resume-heading .social-btn-holder{
     padding:5px;
   }
 }
-
 
 /* skill meter in resume. copy pasted from http://bootsnipp.com/snippets/featured/progress-bar-meter */
 
@@ -394,7 +389,7 @@ h4 {
     font-family: AvenirNext-Regular,'Open Sans',sans;
 }
 
-.caption p{
+.caption p {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
