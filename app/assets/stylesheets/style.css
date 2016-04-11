@@ -78,6 +78,7 @@ ul.social-network {
     margin-left:0 !important;
     padding-left: 250px;
 }
+
 ul.social-network li {
     display: inline;
     margin: 0 5px;
@@ -157,10 +158,6 @@ a {
 .book {
     padding: 15px 0 0 0;
     margin: auto;
-}
-
-.bookshelf {
-    margin: 50px, 0, 50px, 0;
 }
 
 .bookshelf a:before { /* Just to give a little puddle of a shadow without adding another element */
