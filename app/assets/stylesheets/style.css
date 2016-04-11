@@ -159,6 +159,10 @@ a {
     margin: auto;
 }
 
+.bookshelf {
+    margin: 50px, 0, 50px, 0;
+}
+
 .bookshelf a:before { /* Just to give a little puddle of a shadow without adding another element */
     content: '';
     display: block;
